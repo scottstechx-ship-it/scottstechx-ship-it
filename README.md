@@ -77,20 +77,39 @@ I'm a Ugandan cybersecurity analyst turned full-stack engineer and founder of **
 
 ## 📌 Pinned repositories
 
-<p align="center">
-  <a href="https://github.com/scottstechx-ship-it/scottstechx-commerce-os">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=scottstechx-ship-it&repo=scottstechx-commerce-os&theme=tokyonight&hide_border=true&show_owner=true" alt="Commerce OS"/>
-  </a>
-  <a href="https://github.com/scottstechx-ship-it/scottstechx.com">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=scottstechx-ship-it&repo=scottstechx.com&theme=tokyonight&hide_border=true&show_owner=true" alt="scottstechx.com"/>
-  </a>
-  <a href="https://github.com/scottstechx-ship-it/ScottsTechX">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=scottstechx-ship-it&repo=ScottsTechX&theme=tokyonight&hide_border=true&show_owner=true" alt="WiFi QR"/>
-  </a>
-  <a href="https://github.com/scottstechx-ship-it/portfolio">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=scottstechx-ship-it&repo=portfolio&theme=tokyonight&hide_border=true&show_owner=true" alt="Portfolio"/>
-  </a>
-</p>
+<table>
+<tr>
+  <td width="50%">
+    <h3><a href="https://github.com/scottstechx-ship-it/scottstechx-commerce-os">🛒 Commerce OS</a></h3>
+    <p><strong>Trust-gated marketplace for Uganda.</strong> Fastify + Postgres backend with 12 modules (auth, orders, payments, sellers, reviews, AI, chat, logistics, trust, FX, audit) + Kotlin/Compose Android client.</p>
+    <p><code>TypeScript</code> <code>Kotlin</code> <code>Fastify</code> <code>Postgres</code> <code>Compose</code></p>
+  </td>
+  <td width="50%">
+    <h3><a href="https://github.com/scottstechx-ship-it/scottstechx.com">🛡️ Sentinel AI</a></h3>
+    <p><strong>AI-powered 24/7 threat-detection platform.</strong> Reference architecture covering ingest, ML inference, alerting, and incident response.</p>
+    <p><code>AI/ML</code> <code>Cybersecurity</code> <code>Reference</code></p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <h3><a href="https://github.com/scottstechx-ship-it/ScottsTechX">📡 ScottsTechX WiFi</a></h3>
+    <p><strong>Offline Wi-Fi QR code generator.</strong> Custom styles, printable cards, offline-first security. React 19 + Vite + Tailwind 4 + Gemini API.</p>
+    <p><code>React 19</code> <code>Vite</code> <code>Tailwind 4</code> <code>Gemini</code></p>
+  </td>
+  <td>
+    <h3><a href="https://github.com/scottstechx-ship-it/portfolio">🌐 Portfolio site</a></h3>
+    <p><strong>This professional portfolio.</strong> Single-file PWA with theme toggle, project filter, GitHub-style repo cards, OG image, dark/light/system theme.</p>
+    <p><code>HTML5</code> <code>CSS3</code> <code>JS</code> <code>PWA</code></p>
+  </td>
+</tr>
+<tr>
+  <td colspan="2">
+    <h3><a href="https://github.com/scottstechx-ship-it/fred-scotts-resume">📄 Resume / CV</a></h3>
+    <p><strong>Public resume with both Markdown source and rendered HTML.</strong> Dark/light themed, printable. Truthful-content rules enforced.</p>
+    <p><code>Markdown</code> <code>HTML5</code> <code>CSS3</code></p>
+  </td>
+</tr>
+</table>
 
 ---
 
