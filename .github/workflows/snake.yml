@@ -1,0 +1,25 @@
+name: Generate snake animation
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: scottstechx-ship-it
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+      - run: mkdir -p .github && cp dist/* .github/snake.svg
+      - uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actions
+          message: "chore(snake): regenerate contribution snake"
+          add: ".github/snake.svg"
